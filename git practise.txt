@@ -1,0 +1,37 @@
+https://github.com/vishal1425/june-01.git
+
+…or create a new repository on the command line
+echo "# june-01" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/vishal1425/june-01.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/vishal1425/june-01.git
+git branch -M main
+git push -u origin main
+
+...........................
+
+$ which git
+/mingw64/bin/git
+
+$ git --version
+git version 2.25.0.windows.1
+
+V VISHAL@VISHAL MINGW64 /d/important/DevOps learning
+$ git config --global user.name "vattam vishal"
+
+V VISHAL@VISHAL MINGW64 /d/important/DevOps learning
+$ git config --global user.email "vattamvattam72@gmail.com"
+
+V VISHAL@VISHAL MINGW64 /d/important/DevOps learning
+$ git config --global push.default "simple"
+
+V VISHAL@VISHAL MINGW64 /d/important/DevOps learning
+$ git clone https://github.com/vishal1425/june-01.git
+Cloning into 'june-01'...
+warning: You appear to have cloned an empty repository.
+
